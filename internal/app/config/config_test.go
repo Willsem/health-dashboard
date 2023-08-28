@@ -4,12 +4,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Willsem/golang-api-template/internal/app"
-	"github.com/Willsem/golang-api-template/internal/app/config"
-	"github.com/Willsem/golang-api-template/internal/app/startup"
-	"github.com/Willsem/golang-api-template/internal/http/server"
 	"github.com/stretchr/testify/suite"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/Willsem/health-dashboard/internal/app"
+	"github.com/Willsem/health-dashboard/internal/app/config"
+	"github.com/Willsem/health-dashboard/internal/app/startup"
+	"github.com/Willsem/health-dashboard/internal/http/server"
 )
 
 type ConfigTestSuite struct {

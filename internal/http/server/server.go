@@ -8,7 +8,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/Willsem/golang-api-template/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/logger"
 )
 
 //go:generate mockery --name=Router --dir . --output ./mocks

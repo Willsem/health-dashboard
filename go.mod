@@ -1,4 +1,4 @@
-module github.com/Willsem/golang-api-template
+module github.com/Willsem/health-dashboard
 
 go 1.21
 

@@ -3,8 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/Willsem/golang-api-template/internal/http/router"
 	"github.com/labstack/echo/v4"
+
+	"github.com/Willsem/health-dashboard/internal/http/router"
 )
 
 type HealthProbe interface {

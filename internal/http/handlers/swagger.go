@@ -5,9 +5,9 @@ import (
 
 	echoSwagger "github.com/swaggo/echo-swagger"
 
-	"github.com/Willsem/golang-api-template/internal/http/router"
+	"github.com/Willsem/health-dashboard/internal/http/router"
 	// Import swagger file.
-	_ "github.com/Willsem/golang-api-template/api"
+	_ "github.com/Willsem/health-dashboard/api"
 )
 
 type SwaggerHandler struct{}

@@ -6,7 +6,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/Willsem/golang-api-template/internal/http/router"
+	"github.com/Willsem/health-dashboard/internal/http/router"
 )
 
 type MetricsHandler struct {

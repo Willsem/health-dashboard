@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/Willsem/golang-api-template/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/logger"
 )
 
 type LoggerImpl struct {

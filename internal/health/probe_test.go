@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/Willsem/golang-api-template/internal/health"
+	"github.com/Willsem/health-dashboard/internal/health"
 )
 
 type ProbeTestSuite struct {

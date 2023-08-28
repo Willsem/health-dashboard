@@ -1,1 +1,1 @@
-# Golang API Template
+# Health dashboard

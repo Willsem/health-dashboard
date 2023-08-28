@@ -14,11 +14,11 @@ RUN go mod download
 
 ARG LDFLAGS
 COPY . .
-RUN go build -ldflags="${LDFLAGS}" -mod readonly -o /app/bin/golang-api-template /app/cmd/api/main.go
+RUN go build -ldflags="${LDFLAGS}" -mod readonly -o /app/bin/health-dashboard /app/cmd/api/main.go
 
 FROM ${RUN_IMAGE}
 
 COPY --from=build /app/bin /bin
 
 EXPOSE 3000
-CMD ["/bin/golang-api-template"]
+CMD ["/bin/health-dashboard"]

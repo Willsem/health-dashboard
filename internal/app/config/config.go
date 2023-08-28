@@ -3,9 +3,9 @@ package config
 import (
 	"github.com/kelseyhightower/envconfig"
 
-	"github.com/Willsem/golang-api-template/internal/app"
-	"github.com/Willsem/golang-api-template/internal/app/startup"
-	"github.com/Willsem/golang-api-template/internal/http/server"
+	"github.com/Willsem/health-dashboard/internal/app"
+	"github.com/Willsem/health-dashboard/internal/app/startup"
+	"github.com/Willsem/health-dashboard/internal/http/server"
 )
 
 type Config struct {

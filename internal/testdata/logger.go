@@ -1,8 +1,8 @@
 package testdata
 
 import (
-	"github.com/Willsem/golang-api-template/internal/logger"
-	"github.com/Willsem/golang-api-template/internal/logger/zap"
+	"github.com/Willsem/health-dashboard/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/logger/zap"
 )
 
 type testWriter struct{}

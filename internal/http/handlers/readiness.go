@@ -3,8 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/Willsem/golang-api-template/internal/http/router"
 	"github.com/labstack/echo/v4"
+
+	"github.com/Willsem/health-dashboard/internal/http/router"
 )
 
 //go:generate mockery --name=ReadyStatus --dir . --output ./mocks

@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/Willsem/golang-api-template/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/logger"
 )
 
 //go:generate mockery --name=Component --dir . --output ./mocks

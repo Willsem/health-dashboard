@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/Willsem/golang-api-template/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/logger"
 )
 
 func LoggerMiddleware(log logger.Logger) echo.MiddlewareFunc {

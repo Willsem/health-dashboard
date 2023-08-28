@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	router "github.com/Willsem/golang-api-template/internal/http/router"
+	router "github.com/Willsem/health-dashboard/internal/http/router"
 	mock "github.com/stretchr/testify/mock"
 )
 

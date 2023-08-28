@@ -6,7 +6,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	"github.com/Willsem/golang-api-template/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/logger"
 )
 
 type Route struct {

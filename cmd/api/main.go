@@ -3,18 +3,18 @@ package main
 import (
 	"context"
 
-	"github.com/Willsem/golang-api-template/internal/app"
-	"github.com/Willsem/golang-api-template/internal/app/build"
-	"github.com/Willsem/golang-api-template/internal/app/config"
-	"github.com/Willsem/golang-api-template/internal/app/startup"
-	"github.com/Willsem/golang-api-template/internal/health"
-	"github.com/Willsem/golang-api-template/internal/http/handlers"
-	"github.com/Willsem/golang-api-template/internal/http/router"
-	"github.com/Willsem/golang-api-template/internal/http/server"
-	"github.com/Willsem/golang-api-template/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/app"
+	"github.com/Willsem/health-dashboard/internal/app/build"
+	"github.com/Willsem/health-dashboard/internal/app/config"
+	"github.com/Willsem/health-dashboard/internal/app/startup"
+	"github.com/Willsem/health-dashboard/internal/health"
+	"github.com/Willsem/health-dashboard/internal/http/handlers"
+	"github.com/Willsem/health-dashboard/internal/http/router"
+	"github.com/Willsem/health-dashboard/internal/http/server"
+	"github.com/Willsem/health-dashboard/internal/logger"
 )
 
-const appName = "golang-api-template"
+const appName = "health-dashboard"
 
 // @title       Golang API Template
 // @version     1.0

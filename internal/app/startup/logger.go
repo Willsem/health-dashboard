@@ -3,8 +3,8 @@ package startup
 import (
 	"go.uber.org/zap/zapcore"
 
-	"github.com/Willsem/golang-api-template/internal/logger"
-	"github.com/Willsem/golang-api-template/internal/logger/zap"
+	"github.com/Willsem/health-dashboard/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/logger/zap"
 )
 
 type LogConfig struct {

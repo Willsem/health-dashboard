@@ -7,10 +7,10 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/Willsem/golang-api-template/internal/http/router"
-	"github.com/Willsem/golang-api-template/internal/http/router/mocks"
-	"github.com/Willsem/golang-api-template/internal/logger"
-	"github.com/Willsem/golang-api-template/internal/testdata"
+	"github.com/Willsem/health-dashboard/internal/http/router"
+	"github.com/Willsem/health-dashboard/internal/http/router/mocks"
+	"github.com/Willsem/health-dashboard/internal/logger"
+	"github.com/Willsem/health-dashboard/internal/testdata"
 )
 
 type RouterTestSuite struct {
@@ -59,7 +59,7 @@ func (s *RouterTestSuite) TestRoutes() {
 	}
 
 	routeName :=
-		"github.com/Willsem/golang-api-template/internal/http/router_test.(*RouterTestSuite).TestRoutes.func1"
+		"github.com/Willsem/health-dashboard/internal/http/router_test.(*RouterTestSuite).TestRoutes.func1"
 	expectedRoutes := []*echo.Route{
 		{
 			Method: http.MethodGet,
